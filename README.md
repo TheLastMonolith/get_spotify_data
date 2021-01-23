@@ -9,6 +9,8 @@ Make a new app and copy the Client ID and Secret Code.
 ## 1. scrape_spotify_charts.py
 Based from automated data collection from Spotify's worldwide ranking in 50+ countries from [edumucelli](https://github.com/edumucelli/spotify-worldwide-ranking). The data collected by the code has been published at [Kaggle datasets](https://www.kaggle.com/jcacperalta/spotify-daily-top-200-ph) and is being updated on a quarterly basis.
 
+First, create the folder `data`. This will be the directory where the downloaded files will be written.
+
 On the command line, run by:
 ````
 python scrape_spotify_charts.py
